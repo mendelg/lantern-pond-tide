@@ -14,7 +14,9 @@
       "koi": [[500, 700, 180, 100, 0.7, 0]]
     },
     {
+      "deleted": true,
       "id": "tide-2026-07-b",
+      
       "name": "Salt & Ice",
       "par": 3,
       "hint": "The sea remembers winter too.",
