@@ -12,9 +12,9 @@ services from abuse.
 ### Local progress, accounts, and cloud saves
 
 - Guest progress stays on the device, and no Firebase account is created until
-  you choose to sign in. An account is required before making an in-app
-  purchase so purchased currency, cosmetics, and progress can be restored
-  after a reinstall or device change.
+  you choose to sign in. Purchases and Store-provided purchase restoration do
+  not require an account. If you choose an account, cloud save can carry game
+  progress, coin balance, and cosmetics to another device.
 - You may use Sign in with Apple, Google sign-in, or an email address and
   password. Email login uses the address for sign-in and password recovery.
   Firebase Authentication processes the password; Lantern Pond does not store
@@ -57,7 +57,10 @@ services from abuse.
 
 Purchases are processed by Apple's App Store or Google Play. Lantern Pond
 receives the product and transaction information needed to deliver a purchase
-and prevent duplicate delivery, but does not receive payment-card details.
+and prevent duplicate delivery, but does not receive payment-card details. An
+account is not required to purchase or to restore Store-restorable purchases.
+Consumable coin balances are not restored by the Store; players may optionally
+use cloud save to carry their current balance to another device.
 
 ## What Lantern Pond does not do
 
